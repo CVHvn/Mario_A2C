@@ -12,7 +12,7 @@ from src.test_worker import *
 
 def get_args():
     parser = argparse.ArgumentParser(
-        """A2C implement to playing Super Mario Bros""")
+        """A3C implement to playing Super Mario Bros""")
     parser.add_argument("--world", type=int, default=1)
     parser.add_argument("--stage", type=int, default=4)
     parser.add_argument('--num_envs', type=int, default=16, help='Number of environment')
